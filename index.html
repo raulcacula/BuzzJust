@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuzzJust</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="header">
+            <div class="logo-header">
+                <img src="logo.png" alt="">
+                <button id="Seta-bar"><i class="fa-solid fa-chevron-down"></i></button>
+            </div>
+            <ul class=" items-pesquisa ">
+                <li>
+                    <div class="search-box">
+                        <form action="">
+                            <input type="text" placeholder="Pesquise..." name="search" id="srch" onclick="AbrirPesq()">
+                            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                         </form>
+                       </div>
+                </li>
+            </ul>
+            <ul class="items-header">
+                <li>
+                    <a href="#footer">footer</a>
+                </li>
+                <li>
+                      <a href="#premium-buzz">Preços</a>
+                </li>
+                <li class="perfil-header">
+                    <a href="login.html">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3736/3736502.png" alt=""><span>Buzz beta</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="burger-container">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="bar-lateral">
+        <div class="scrollbox2">
+            <button id="fechar-bar"><i class="fa-solid fa-chevron-up"></i></button>
+           <li>
+            <a href="">
+            <span><i class="fa-solid fa-globe"></i></span>
+            <span>Explore</span>
+            </a>
+           </li>
+
+           <li>
+            <a href="">
+            <span><i class="fa-solid fa-headphones"></i></span>
+            <span>minha playlist</span>
+            </a>
+           </li>
+
+           <li>
+            <a href="">
+            <span><i class="fa-solid fa-heart"></i></span>
+            <span>Favoritas</span>
+            </a>
+           </li>
+
+           <li>
+            <a href="">
+            <span><i class="fa-solid fa-podcast"></i></span>
+            <span>Podcast</span>
+            </a>
+           </li>
+
+           <li>
+            <a href="">
+            <span><i class="fa-solid fa-users-between-lines"></i></span>
+            <span>Melhores do mês</span>
+            </a>
+           </li>
+
+           <li>
+            <a href="">
+            <span><i class="fa-solid fa-person"></i></span>
+            <span>Artista</span>
+            </a>
+           </li>
+
+           <li>
+            <a href="">
+            <span><i class="fa-solid fa-music"></i></span>
+            <span>Minhas musicas</span>
+            </a>
+           </li>
+
+           <li>
+            <a href="/login.html">
+            <span><i class="fa-brands fa-soundcloud"></i></span>
+            <span>posts</span>
+            </a>
+           </li>
+
+           <li>
+            <a href="/login.html">
+            <span><i class="fa-solid fa-user"></i></span>
+            <span>Criar uma conta</span>
+            </a>
+           </li>
+
+           <li>
+            <a href="/login.html">
+            <span><img src="/codigo buzz/logo.png" alt=""></span>
+            <span>beta Buzz</span>
+            </a>
+           </li>
+        </div>
+    </div>
+    
+
+    <section class="container" id="template-areas">
+        <div id="music">
+
+                <div class="song-details">
+                <h1>fluxxwave</h1>
+                <p>Clovis Reyes</p>
+                <div class="song-details-fav">
+                    <button class="song-ouvir">Ouvir agora</button>
+                    <button class="song-heart"><i class="fa-solid fa-heart"></i></button>
+                </div>
+                </div>
+                <img class="song-img" src="https://i.scdn.co/image/ab67616d0000b273451c3d84572c129fe11dc9d3" alt="">
+               
+        </div><!--music-->
+        <div id="trend-top">
+            <div class="trend-top-details">
+                <h1>Top 5 mais ouvidas do mês</h1>
+            </div>
+            <div class="top-details">
+                <li>
+                <a href="">
+                    <span>1-</span>
+                   
+                    <h2><img src="https://img.freepik.com/vetores-premium/fundo-retro-paisagem-futurista-estilo-dos-anos-80-paisagem-retro-digital-superficie-cibernetica-modelo-de-capa-de-album-de-musica-retro-sol-espaco-montanhas-80s-retro-scifi-background-paisagem-de-verao_518816-2694.jpg" alt="">Belive</h2>
+                    <span class="details-plays"> 100.00 plays</span>
+                    <span class="play-music-trend"><i class="fa-solid fa-play"></i></span>
+                </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span>2-</span>
+                       
+                            <h2><img src="https://i.scdn.co/image/ab67616d00001e02a2ab8a2b4cbbf685827eb835" alt="">Let's go</h2>
+                        <span class="details-plays"> 100.00 plays</span>
+                        <span class="play-music-trend"><i class="fa-solid fa-play"></i></span>
+                    </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>3-</span>
+                           
+                            <h2><img src="https://img.freepik.com/vetores-premium/fundo-retro-paisagem-futurista-estilo-dos-anos-80-paisagem-retro-digital-superficie-cibernetica-modelo-de-capa-de-album-de-musica-retro-sol-espaco-montanhas-80s-retro-scifi-background-paisagem-de-verao_518816-2694.jpg" alt="">Belive</h2>
+                            <span class="details-plays"> 100.00 plays</span>
+                            <span class="play-music-trend"><i class="fa-solid fa-play"></i></span>
+                        </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>4-</span>
+                               
+                                    <h2><img src="https://i.scdn.co/image/ab67616d00001e02a2ab8a2b4cbbf685827eb835" alt="">Let's go</h2>
+                                <span class="details-plays"> 100.00 plays</span>
+                                <span class="play-music-trend"><i class="fa-solid fa-play"></i></span>
+                            </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span>5-</span>
+                                   
+                                    <h2><img src="https://img.freepik.com/vetores-premium/fundo-retro-paisagem-futurista-estilo-dos-anos-80-paisagem-retro-digital-superficie-cibernetica-modelo-de-capa-de-album-de-musica-retro-sol-espaco-montanhas-80s-retro-scifi-background-paisagem-de-verao_518816-2694.jpg" alt="">Belive</h2>
+                                    <span class="details-plays"> 100.00 plays</span>
+                                    <span class="play-music-trend"><i class="fa-solid fa-play"></i></span>
+                                </a>
+                                </li>
+                         </div>
+                        </div>
+                        </div>
+                       </div>
+                </div>
+            
+             <div id="genero">
+                <div class="scrollbox">
+                <div class="genero-flex">
+                    <a href="">gospel</a>
+                    <a href="">sertanejo</a>
+                    <a href="">funk</a>
+                    <a href="">phonk</a>
+                    <a href="">trap</a>
+                    <a href="">pop</a>
+                    <p>É MUITO MAIS</p>
+                </div>
+                </div>
+             </div>
+
+             <div id="music-play">
+                <div class="music-container">
+                    <div class="player-titulo-details">
+                        <p>Player</p>
+                        <button><i class="fa-solid fa-list"></i></button>
+                    </div>
+                    <a href="">
+                    <img class="player-img" src="https://i.pinimg.com/236x/48/24/93/48249335e8c3852d59a5a27e054bb8d2.jpg" alt="">
+                    <h1 class="titulo-player">Starboy</h1>
+                    <p>The weekend</p>
+                    <br>
+                    <span class="play-music"><i class="fa-solid fa-play"></i></span>
+                    </a>
+                    
+                </div><!--MUSIC CONTAINER-->
+             </div>
+    </section>
+
+    <div class="slider-card">
+        <div class="slide-track">
+            <div class="slide" height="100px" width="250px">
+                <div class="slide-img">
+                    <a href="">
+                    <img src="https://upload.wikimedia.org/wikipedia/pt/6/6d/Rihanna_Umbrella.jpg" alt="">
+                </div>
+                <div class="slide-details">
+                <h1>UMbrella</h1>
+                <span>Rihanna</span>
+                </div>
+            </a>
+            </div>
+            <div class="slide" height="100px" width="250px">
+                <div class="slide-img">
+                    <a href="">
+                    <img src="https://jornalpredio3.files.wordpress.com/2020/11/ilusao.jpg" alt="">
+                </div>
+                <div class="slide-details">
+                <h1>ilusão cracolandia</h1>
+                <span>Dj alok ,Dj W, Mc hariel, Mc salvador da rima , Mc davi, Mc ryan SP</span>
+                </div>
+            </a>
+            </div>
+            <div class="slide" height="100px" width="250px">
+                <div class="slide-img">
+                    <a href="">
+                    <img src="https://i0.wp.com/folhagospel.com/wp-content/uploads/2019/08/500x5001.jpg?fit=500%2C500&ssl=1" alt="">
+                </div>
+                <div class="slide-details">
+                <h1>a casa e sua</h1>
+                <span>Julliany Souza, Léo Brandão</span>
+                </div>
+            </a>
+            </div>
+            <div class="slide" height="100px" width="250px">
+                <div class="slide-img">
+                    <a href="">
+                    <img src="https://upload.wikimedia.org/wikipedia/pt/6/6d/Rihanna_Umbrella.jpg" alt="">
+                </div>
+                <div class="slide-details">
+                <h1>UMbrella</h1>
+                <span>Rihanna</span>
+                </div>
+            </a>
+            </div>
+            <div class="slide" height="100px" width="250px">
+                <div class="slide-img">
+                    <a href="">
+                    <img src="https://jornalpredio3.files.wordpress.com/2020/11/ilusao.jpg" alt="">
+                </div>
+                <div class="slide-details">
+                <h1>ilusão cracolandia</h1>
+                <span>Dj alok ,Dj W, Mc hariel, Mc salvador da rima , Mc davi, Mc ryan SP</span>
+                </div>
+            </a>
+            </div>
+            <div class="slide" height="100px" width="250px">
+                <div class="slide-img">
+                    <a href="">
+                    <img src="https://i0.wp.com/folhagospel.com/wp-content/uploads/2019/08/500x5001.jpg?fit=500%2C500&ssl=1" alt="">
+                </div>
+                <div class="slide-details">
+                <h1>a casa e sua</h1>
+                <span>Julliany Souza, Léo Brandão</span>
+                </div>
+            </a>
+            </div>
+            <div class="slide" height="100px" width="250px">
+                <div class="slide-img">
+                    <a href="">
+                    <img src="https://upload.wikimedia.org/wikipedia/pt/6/6d/Rihanna_Umbrella.jpg" alt="">
+                </div>
+                <div class="slide-details">
+                <h1>UMbrella</h1>
+                <span>Rihanna</span>
+                </div>
+            </a>
+            </div>
+            <div class="slide" height="100px" width="250px">
+                <div class="slide-img">
+                    <a href="">
+                    <img src="https://jornalpredio3.files.wordpress.com/2020/11/ilusao.jpg" alt="">
+                </div>
+                <div class="slide-details">
+                <h1>ilusão cracolandia</h1>
+                <span>Dj alok ,Dj W, Mc hariel, Mc salvador da rima , Mc davi, Mc ryan SP</span>
+                </div>
+            </a>
+            </div>
+            <div class="slide" height="100px" width="250px">
+                <div class="slide-img">
+                    <a href="">
+                    <img src="https://i0.wp.com/folhagospel.com/wp-content/uploads/2019/08/500x5001.jpg?fit=500%2C500&ssl=1" alt="">
+                </div>
+                <div class="slide-details">
+                <h1>a casa e sua</h1>
+                <span>Julliany Souza, Léo Brandão</span>
+                </div>
+            </a>
+            </div>
+            <div class="slide" height="100px" width="250px">
+                <div class="slide-img">
+                    <a href="">
+                    <img src="https://upload.wikimedia.org/wikipedia/pt/6/6d/Rihanna_Umbrella.jpg" alt="">
+                </div>
+                <div class="slide-details">
+                <h1>UMbrella</h1>
+                <span>Rihanna</span>
+                </div>
+            </a>
+            </div>
+            <div class="slide" height="100px" width="250px">
+                <div class="slide-img">
+                    <a href="">
+                    <img src="https://jornalpredio3.files.wordpress.com/2020/11/ilusao.jpg" alt="">
+                </div>
+                <div class="slide-details">
+                <h1>ilusão cracolandia</h1>
+                <span>Dj alok ,Dj W, Mc hariel, Mc salvador da rima , Mc davi, Mc ryan SP</span>
+                </div>
+            </a>
+            </div>
+            <div class="slide" height="100px" width="250px">
+                <div class="slide-img">
+                    <a href="">
+                    <img src="https://i0.wp.com/folhagospel.com/wp-content/uploads/2019/08/500x5001.jpg?fit=500%2C500&ssl=1" alt="">
+                </div>
+                <div class="slide-details">
+                <h1>a casa e sua</h1>
+                <span>Julliany Souza, Léo Brandão</span>
+                </div>
+            </a>
+            </div>
+        </div><!--SLIDE TRACK-->
+    </div>
+
+    <div class="container-artista" id="template-areas">
+        <div id="artista">
+            <div class="artista-details">
+                <h1>Meu nome é anitta</h1>
+                <p>Ouça minhas musicas</p>
+                <button class="song-ouvir song-anita">Ouvir agora!</button>
+                <button class="song-heart"><i class="fa-solid fa-heart"></i></button>
+            </div>
+            <div class="artista-img">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/133e6c55-9a73-40e6-ad75-1eba073ae34d/dfyxyxn-d4834098-7003-4f07-987d-11fa8ec12ac6.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzEzM2U2YzU1LTlhNzMtNDBlNi1hZDc1LTFlYmEwNzNhZTM0ZFwvZGZ5eHl4bi1kNDgzNDA5OC03MDAzLTRmMDctOTg3ZC0xMWZhOGVjMTJhYzYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.4Paw3R23Lm3fFjyVNkkLV6-WEjIhHHYtyrUMdK_KV8c" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="container-logn">
+        <div id="design-form">
+            <div class="design-container">
+                <a href="/login.html">
+                    <img src="https://gifs.eco.br/wp-content/uploads/2023/10/imagens-de-pessoa-mexendo-no-celular-png-3.png" alt="">
+                    <h1>Crie sua conta agora!</h1>
+                </a>
+            </div>
+        </div>
+        <div id="design-preco">
+            <div class="preco-details">
+                <h1>Por apenas $15 por mês</h1>
+                <span>Detalhes abaixo!</span>
+            </div>
+            <img class="preco-img" src="https://png.pngtree.com/png-clipart/20230218/ourmid/pngtree-3d-headphones-illustration-png-image_6608044.png" alt="">
+        </div>
+        <div id="buzz-detalhes">
+            <main class="card-details">
+                <section class="card">
+                    <div class="card-icon">
+                        <i class="fa-solid fa-music"></i>
+                    </div>
+                    <h1>Terei acesso a todas as musicas?</h1>
+                    <p>Sim, basta o artista publicala no site/app.</p>
+                </section>
+                <section class="card">
+                    <div class="card-icon">
+                        <i class="fa-solid fa-right-to-bracket"></i>
+                    </div>
+                    <h1>Como Criar uma conta ?</h1>
+                    <p>Basta da um click no botão abaixo </p>
+                    <a href="/login.html">
+                        <button>Criar conta</button>
+                    </a>
+                </section>
+                <section class="card">
+                    <div class="card-icon">
+                        <i class="fa-solid fa-cloud-arrow-down"></i>
+                    </div>
+                    <h1>Terei como baixar as musicas, é escuta-la offline?</h1>
+                    <p>Sim qualquer musica.</p>
+                </section>
+            </main>
+        </div>
+
+
+    </div><!--CONTAINER ARTISTA-->
+
+
+    <div class="container-assinar" id="template-areas">
+        <div id="premium-buzz">
+            <div class="container-premium">
+                <h1>BuzzJust</h1>
+                <div class="premium-details">
+                    <h2>individual</h2>
+                    <p>R$15,00 por mês</p>
+                </div>
+                <div class="premium-details-line">
+                    <span>Para 1 pessoa
+                        <i class="fa-solid fa-user"></i>
+                    </span>
+                    <br>
+                    <s>conta premium</s>
+                    <br>
+                    <s>cancele qunado quiser</s>
+                    <br>
+                    <button class="btn-assinar">Estou interessado(a)</button>
+                </div>
+            </div>
+
+            <div class="container-premium container-premium2">
+                <h1>BuzzJust</h1>
+                <div class="premium-details">
+                    <h2>duo</h2>
+                    <p>R$21,00 por mês</p>
+                </div>
+                <div class="premium-details-line">
+                    <span>Para 2 pessoa
+                        <i class="fa-solid fa-user"></i>
+                        <i class="fa-solid fa-user"></i>
+                    </span>
+                    <br>
+                    <s>conta premium</s>
+                    <br>
+                    <s>cancele qunado quiser</s>
+                    <br>
+                    <button class="btn-assinar btn-assinar2">Estou interessado(a)</button>
+                </div>
+            </div>
+
+            <div class="container-premium container-premium2">
+                <h1>BuzzJust</h1>
+                <div class="premium-details">
+                    <h2>familia</h2>
+                    <p>R$50,00 por mês</p>
+                    <p>+ uma pessoa + R$8,00</p>
+                </div>
+                <div class="premium-details-line premium-details-line3">
+                    <span>até 7 pessoa
+                        <i class="fa-solid fa-user"></i>
+                        <i class="fa-solid fa-user"></i>
+                        <i class="fa-solid fa-user"></i>
+                        +
+                    </span>
+                    <br>
+                    <s>conta premium</s>
+                    <br>
+                    
+                    <s>cancele qunado quiser</s>
+                    <br>
+                    <button class="btn-assinar btn-assinar2">Estou interessado(a)</button>
+                </div>
+            </div>
+        </div><!-- premium-buzz-->
+        
+    </div><!-- CONTAINER ASSINAR-->
+
+
+    <div class="container-logos hidden"  id="template-areas">
+        <div id="logos-flex">
+         <div>
+            <span>Qualidade no audio</span>
+            <br>
+            <i class="fa-solid fa-volume-high"></i>
+            <br>
+         </div>  
+         <div>
+            <span>Qualidade nas musicas</span>
+            <br>
+            <i class="fa-solid fa-headphones"></i>
+            <br>
+         </div>  
+         <div>
+            <span>comentarios disponiveis</span>
+            <br>
+            <i class="fa-solid fa-comment"></i>
+            <br>
+         </div>  
+         <div>
+            <span>Ouvir offiline</span>
+            <br>
+            <i class="fa-solid fa-wifi"></i>
+            <br>
+         </div>  
+         <div>
+            <span>criar uma playlist</span>
+            <br>
+            <i class="fa-solid fa-list"></i>
+            <br>
+         </div>  
+         <div>
+            <span>ouvir seu artista favorito</span>
+            <br>
+            <i class="fa-solid fa-heart"></i>
+            <br>
+         </div>  
+         <div>
+            <span>crie sua conta</span>
+            <br>
+            <i class="fa-solid fa-user"></i>
+            <br>
+         </div>  
+         <div>
+            <span>para android e ios</span>
+            <br>
+            <i class="fa-solid fa-check"></i>
+            <br>
+         </div>  
+         <div>
+            <span>Qualidade no audio</span>
+            <br>
+            <i class="fa-solid fa-volume-high"></i>
+            <br>
+         </div>  
+         <div>
+            <span>Qualidade nas musicas</span>
+            <br>
+            <i class="fa-solid fa-headphones"></i>
+            <br>
+         </div>  
+         <div>
+            <span>comentarios disponiveis</span>
+            <br>
+            <i class="fa-solid fa-comment"></i>
+            <br>
+         </div>  
+         <div>
+            <span>Ouvir offiline</span>
+            <br>
+            <i class="fa-solid fa-wifi"></i>
+            <br>
+         </div>  
+         <div>
+            <span>criar uma playlist</span>
+            <br>
+            <i class="fa-solid fa-list"></i>
+            <br>
+         </div>  
+         <div>
+            <span>ouvir seu artista favorito</span>
+            <br>
+            <i class="fa-solid fa-heart"></i>
+            <br>
+         </div>  
+         <div>
+            <span>crie sua conta</span>
+            <br>
+            <i class="fa-solid fa-user"></i>
+            <br>
+         </div>  
+         <div>
+            <span>para android e ios</span>
+            <br>
+            <i class="fa-solid fa-check"></i>
+            <br>
+         </div>  
+         <div>
+            <span>crie sua conta</span>
+            <br>
+            <i class="fa-solid fa-user"></i>
+            <br>
+         </div>  
+         <div>
+            <span>para android e ios</span>
+            <br>
+            <i class="fa-solid fa-check"></i>
+            <br>
+         </div>  
+        </div>
+    </div>
+
+    <footer class="footer" id="footer">
+        <div id="footer-container" class="footer-container">
+            <div class="footer-links">
+                <h1>Sobre BuzzJust</h1>
+                <a href="">Sobre nós <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <br>
+                <a href="">Noticias <i class="fa-solid fa-newspaper"></i></a>
+                <br>
+                <a href="#music">Voltar ao inicio </a>
+            </div>
+            <div class="footer-links">
+                <h1>Musica BuzzJust</h1>
+                <a href="">artistas  <i class="fa-solid fa-music"></i></a>
+                <br>
+                <a href="">generos de musicas  <i class="fa-solid fa-microphone-lines"></i></a>
+                <br>
+                <a href="">Minha playlist  <i class="fa-solid fa-record-vinyl"></i></a>
+            </div>
+            <div class="footer-links">
+                <h1>conta BuzzJust</h1>
+                <a href="/login.html">criar conta  <i class="fa-solid fa-user"></i></a>
+                <br>
+                <a href="/login.html">entrar em uma conta  <i class="fa-solid fa-user"></i></a>
+                <br>
+                <a href="#music">Voltar ao inicio  </a>
+            </div>
+        </div>
+
+        <div  class="footer-socias">
+            <div class="sociais">
+                <h1>Redes socias</h1>
+                <a href="https://www.linkedin.com/in/raul-henrique-a27b57232/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/raulcacula"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/raulhenrique14/"><i class="fa-brands fa-instagram"></i></a>
+                <p>&copy;Raulcacula</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/43fd509247.js" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login BuzzJust</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="logo-header-login">
+       <a href="index.html"><img src="logo.png" alt=""></a> 
+    </div>
+
+    <div class="login-container">
+        <h1>Entre agora na BuzzJust</h1>
+        <div class="login-form">
+            <form>
+                <div class="email">
+                <span>digite seu E-mail</span>
+                <br>
+                <input type="email" placeholder="E-mail" id="email-login">
+                </div>
+                <div class="senha">
+                    <span>digite sua senha</span>
+                    <br>
+                    <input type="password" placeholder="Digite sua senha" id="senha-login">
+                </div>
+                <div class="check-point-login">
+                    <input type="checkbox" id="check-login">
+                    <span>lembrar da conta</span>
+                </div>
+                <div class="btn-login">
+                    <button id="btn-login">Entrar</button>
+                </div>      
+            <div class="login-entrar">
+                <button>
+                    <img src="https://i.pinimg.com/originals/39/21/6d/39216d73519bca962bd4a01f3e8f4a4b.png" alt="">
+                    continuar com o Google
+                </button>
+                <button>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png" alt="">
+                    continuar com o facebook
+                </button>
+            </div>
+            <div class="criar-conta">
+                <p>Não tem uma conta?</p>
+                <button>Criar conta</button>
+            </div>
+            </form>
+        </div>
+    </div>
+
+    <!--<div class="loader-login">
+        <svg>
+            <circle cx="70" cy="70" r="70"></circle>
+        </svg>
+    </div>-->
+
+    <script>
+
+        function loader(){
+            document.querySelector('.loader-login').classList.add('fade-out')
+        }
+
+        function fadeOut(){
+            setInterval(loader,3500)
+        }
+        window.onload = fadeOut
+        window.style.filter = `blur(${100}px)`
+    </script>
+
+    <script src="https://kit.fontawesome.com/43fd509247.js" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</body>
+</html>
